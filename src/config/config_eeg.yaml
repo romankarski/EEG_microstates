@@ -1,0 +1,19 @@
+environment:
+  eeg_raw_signals: "data/EEG_signals/EEG_raw/"
+  eeg_markers: "data/EEG_signals/EEG_marker/"
+  electrodes_legend: "data/Elektrody_legenda.csv"
+  electrodes_coordinates: "data/electrode_coordinates.csv"
+  sports_order: "data/OrderSport.csv"
+
+experiment:
+  montage: 'standard_1020'
+  frequency: 250
+  bias: 2
+  imagine: 30
+  imagine_long: 
+
+constants:
+  mne_eeg_scaling: 40e+1
+  mesh_shape: 200
+  mesh_scale: 1.5
+  weights_size: 60
